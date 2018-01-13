@@ -9,3 +9,6 @@ after_success:
   
 notifications:
   slack: digital-bauhaus:dgT2SMQCbcq3J89fYje4X0fs
+  email:
+    on_success: never # default:change
+    on_failure: change # default:allways
