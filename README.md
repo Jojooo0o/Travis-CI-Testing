@@ -1,7 +1,3 @@
-travis-ci
-=============================
-[![Build Status](https://travis-ci.org/digital-bauhaus/Ferienpass-Admin.svg?branch=master)](https://travis-ci.org/digital-bauhaus/Ferienpass-Admin)
-
 # Ferienpass-Anmeldung
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/digital-bauhaus/Ferienpass-Anmeldung/blob/master/LICENSE) [![Build Status](https://travis-ci.org/Jojooo0o/Travis-CI-Testing.svg?branch=master)](https://travis-ci.org/Jojooo0o/Travis-CI-Testing)
