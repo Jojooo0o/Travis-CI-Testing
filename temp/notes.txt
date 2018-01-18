@@ -1,0 +1,42 @@
+Travis Setup
+
+1. Go to travis-ci.org
+2. Sign in with Github
+3. Add project, flip Switch (Settings)
+  1) Only build when .yml existing
+  2) Limit concurrent Jobs (eg cause of extern resource access)
+  3) Build Branch updates
+  4) Build pull request updates
+
+  5) Auto Cancel (Only build latest commit)
+
+
+4. More Options -> Trigger build
+
+5. create ".travis.yml" File
+  1) language: java
+  2) jdk:
+      -oraclejdk8
+  3) script: mvn clean install
+  4) after_success:
+      - mvn clean test jacoco:report coveralls:report
+  5) notifications:
+     slack: digital-bauhaus:dgT2SMQCbcq3J89fYje4X0fs
+     email:
+      on_success: never # default:change
+      on_failure: change # default:allways
+
+6. commit & push, see the magic
+
+7. add badge to readme
+
+8. commit & push, magic again
+
+9. Be happy, travis is set up
+
+
+
+
+Travis-CI
+=============================
+[![Build Status](https://travis-ci.org/digital-bauhaus/Ferienpass-Admin.svg?branch=master)](https://travis-ci.org/digital-bauhaus/Ferienpass-Admin)
