@@ -12,6 +12,11 @@ Travis Setup
 
 
 4. More Options -> Trigger build
+  - Current = Overview
+    - Current -> Config
+  - Branches = Showes all branches of repo
+  - Build History
+  - Pull Requests
 
 5. create ".travis.yml" File
   1) language: java
