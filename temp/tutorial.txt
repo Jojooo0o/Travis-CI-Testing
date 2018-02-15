@@ -1,0 +1,21 @@
+Example Setup Travis-CI
+
+1. Go to "https://travis-ci.org/"
+
+2. Log in with Github Account
+
+3. Give Travis permissions for Github (if asked)
+
+4. Add the Project you want to by flipping the Switch
+  (or "+" and afterwards flip switch)
+
+5. Optional: Configure Settings
+
+6. Create YAML file to specify Travis configuration
+  (must be named ".travis.yml" and located in project root folder)
+
+7. Commit & push, spectate while travis does stuff
+
+8. Be happy!
+
+9. Check Documentation! ("https://docs.travis-ci.com/")
