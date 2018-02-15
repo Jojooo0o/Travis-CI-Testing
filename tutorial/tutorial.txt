@@ -13,7 +13,7 @@ Example Setup Travis-CI
 
 6. Create YAML file to specify Travis configuration
   (must be named ".travis.yml" and located in project root folder)
-  (For this project you can sue temp/.travis.yml)
+  (For this project you can use tutorial/.travis.yml)
 
 7. Commit & push, spectate while travis does stuff
 
