@@ -1,5 +1,7 @@
 Example Setup Travis-CI
 
+(0. Have a repo you want Travis to work with)
+
 1. Go to "https://travis-ci.org/"
 
 2. Log in with Github Account
@@ -13,9 +15,9 @@ Example Setup Travis-CI
 
 6. Create YAML file to specify Travis configuration
   (must be named ".travis.yml" and located in project root folder)
-  (For this project you can sue temp/.travis.yml)
+  (For this project you can use tutorial/.travis.yml)
 
-7. Commit & push, spectate while travis does stuff
+7. Commit & push, spectate while Travis does stuff
 
 8. Be happy!
 
